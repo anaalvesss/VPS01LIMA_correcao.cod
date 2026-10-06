@@ -40,11 +40,12 @@ header {
   background-color: #bfefff
 }
 
-.cards {
+.cards-container {
   display: flex;
+  justify-content: center;
   gap: 20px;
-  flex-wrap: wrap;
-  justify-content: center
+  flex-wrap: wrap;  
+  margin-top: 20px;
 }
 
 .card {
